@@ -9,14 +9,14 @@ int main(){
 	int soma;
 	
 	
-	printf("Digite primeiro número: \n");
+	printf("Digite primeiro nÃºmero: \n");
 	scanf("%d", &a);
 	
-	printf("Digite segunto número: \n");
+	printf("Digite segundo nÃºmero: \n");
 	scanf("%d", &b);	
 	
 	soma = a+b;
-	printf("Resultado da soma é: %d", soma);
+	printf("Resultado da soma Ã©: %d", soma);
 	
 	return 0;
 }
