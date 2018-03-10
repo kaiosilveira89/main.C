@@ -15,7 +15,7 @@ int main(){
 	scanf("%d", &altura);
 	
 	area=base*altura;
-	printf("A area é igual a: %d cm².", area);
+	printf("A área é igual a: %d cm².", area);
  	perimetro= (base*2) + (area*2);
 	printf("Perimetro é igual a: %d.", perimetro);
 		
