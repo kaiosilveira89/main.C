@@ -7,6 +7,7 @@ int main(){
 	int base;
 	int altura;
 	int area;
+	int perimetro;
 	
 	printf("Digite quantos cm tem a base do retangulo: \n");
 	scanf("%d", &base);
@@ -14,7 +15,9 @@ int main(){
 	scanf("%d", &altura);
 	
 	area=base*altura;
-	printf("A area é igual a: %d cm².", area);
- 
+	printf("A area Ã© igual a: %d cmÂ².", area);
+ 	perimetro= (base*2) + (area*2)
+	printf("Perimetro Ã© igual a: %d.", perimetro);
+		
 	return 0;
 }
