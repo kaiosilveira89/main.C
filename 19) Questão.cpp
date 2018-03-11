@@ -4,15 +4,15 @@
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
-    char produto[3] = {0};
-    float preco[3] = {0};
+    char produto[15] = {0};
+    float preco[15] = {0};
     float total = 0;
     float media = 0;
     int i, j;
     float aux = 0;
     
     //incrementando vetores
-    for(i = 1; i < 4; i++){
+    for(i = 1; i < 16; i++){
         printf("Digite o nome do %d° produto: \n", i);
         scanf("%s", &produto[i]);
         printf("Digite o preço do %d° produto: \n", i);
@@ -20,8 +20,8 @@ int main(){
     }
 
     //busca maior preço
-    for(i = 1; i < 4; i++)
-    for(j = i+1; j < 4; j++){
+    for(i = 1; i < 16; i++)
+    for(j = i+1; j < 16; j++){
         if (preco[i]>preco[j]){
             aux = preco[i];   
         }
@@ -32,11 +32,11 @@ int main(){
     }
     
     //soma de vetores
-    for(i = 1; i < 4; i++){
+    for(i = 1; i < 16; i++){
         total += preco[i];
     }
 
-    media = total/3;
+    media = total/15;
 
     
     //saida de dados
